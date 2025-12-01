@@ -1,13 +1,3 @@
----
-
-# 📝 **README – TP3 Programación**
-
-### *Análisis de Fórmula 1 (2016–2024)*
-
-**Grupo 2 — Gómez, Ordoñez, Scarponi, Carbajal**
-
----
-
 ## 📌 **Descripción del Proyecto**
 
 Este proyecto consiste en el desarrollo de una **aplicación de consola en C#** orientada al análisis de datos reales de Fórmula 1.

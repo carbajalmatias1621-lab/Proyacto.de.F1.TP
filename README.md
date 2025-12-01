@@ -1,8 +1,3 @@
-Perfecto.
-Acá tenés el **README.md estilo académico**, orientado a la materia **Programación**, detallado, claro, bien estructurado y adaptado exactamente a tu proyecto *G2-TP3-Gómez-Ordoñez-Scarponi-Carbajal*, incluyendo el **nuevo indicador de eficiencia piloto**.
-
-Está listo para copiarlo y pegarlo en tu repositorio.
-
 ---
 
 # 📝 **README – TP3 Programación**
@@ -150,42 +145,14 @@ INDICADOR DE EFICIENCIA: 71.82
 * Lectura de archivos: **System.IO**
 * Colecciones: List<T>, HashSet<T>
 
----
 
-## 📂 **Estructura del Proyecto**
-
-```
-/G2-TP3-Gomez-Ordoñez-Scarponi-Carbajal
- ├─ Program.cs
- ├─ ResultadoCarrera.cs
- ├─ f1_last5years.csv
- ├─ README.md
- └─ (otros archivos generados por la solución)
-```
-
----
-
-## 👨‍🏫 **Conclusiones**
-
-Este trabajo permitió poner en práctica conceptos claves de programación:
-
-* Lectura y parseo de CSV
-* Uso de clases como estructuras de datos
-* Trabajo con colecciones dinámicas
-* Algoritmos de ordenamiento y filtrado
-* Implementación de funcionalidades propias
-* Separación lógica entre modelo y lógica de negocio
-
-Además, se incorporó un **indicador original**, demostrando capacidad de análisis y extensión del sistema.
-
----
 
 ## 👥 **Integrantes**
 
 * Gómez
 * Ordoñez
 * Scarponi
-* Carbajal (Matías)
+* Carbajal
 
 ---
 

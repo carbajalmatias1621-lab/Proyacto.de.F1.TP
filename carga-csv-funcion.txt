@@ -1,0 +1,21 @@
+static string[,] ObtenerDatos()
+{
+    string rutaArchivo = @"..\..\..\f1_last5years.csv";
+    string[] lineas = File.ReadAllLines(rutaArchivo);
+
+    int filas = lineas.Length;
+    int cols = lineas[0].Split(',').Length;
+
+    string[,] datos = new string[filas, cols];
+
+    for (int i = 0; i < filas; i++)
+    {
+        string[] values = lineas[i].Split(',');
+        for (int j = 0; j < cols; j++)
+        {
+            datos[i, j] = values[j];
+        }
+    }
+
+    return datos;
+}

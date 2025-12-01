@@ -1,0 +1,25 @@
+// Comparación alfabética de menor a mayor con el método de la burbuja
+
+static void MetodoBurbuja(string[] v)
+{
+    int n = v.Length;
+    for (int i = 0; i < n - 1; i++)
+    {
+        bool ordenado = true;
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            if (string.Compare(v[j], v[j + 1]) > 0)
+            {
+                ordenado = false;
+                // Intercambiar elementos
+                string temp = v[j];
+                v[j] = v[j + 1];
+                v[j + 1] = temp;
+            }
+        }
+        if (ordenado)
+        {
+            break;
+        }
+    }
+}
